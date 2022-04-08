@@ -15,9 +15,9 @@
 2. **Clone & Compile**(change the absolute path of your `OpenCV-4.2.0/` in line #3)
 
    ```shell
-   git clone https://github.com/doubleZ0108/OpenCV-4.2.0.git && cd OpenCV-4.2.0
+   git clone https://github.com/doubleZ0108/OpenCV-4.2.0.git
    
-   sudo mkdir build && cd build
+   cd OpenCV-4.2.0/build
    
    sudo cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D OPENCV_EXTRA_MODULES_PATH=[/path/to]/OpenCV-4.2.0/opencv_contrib-4.2.0/modules/ ..
    
